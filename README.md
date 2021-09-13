@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Deep House Event
 
-> One paragraph statement about the project.
+> Web Site show-casing the monthly Deep House event in Ibiza
 
 ![screenshot](./app_screenshot.png)
 
@@ -43,17 +43,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Bonke "Ta Madix" Gcobo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@BonkeGcobo](https://github.com/BonkeGcobo)
+- Twitter: [@bonke_gcobo](https://twitter.com/bonke_gcobo)
+- LinkedIn: [Bonke Gcobo](https://linkedin.com/in/BonkeGcobo)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -67,10 +62,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Thanks to Chindy Shin for the design
 - Inspiration
 - etc
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+This project is  Creative Commons licenced
