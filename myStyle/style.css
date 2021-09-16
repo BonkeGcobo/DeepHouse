@@ -1,0 +1,369 @@
+.mobile-menu {
+  width: 20px;
+  height: 18px;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  margin-top: -1.7rem;
+  margin-bottom: 40px;
+  position: fixed;
+}
+
+.headhome {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-image: url('../images/background_img.png');
+  padding-bottom: 2rem;
+}
+
+.annual_music {
+  margin-top: 5px;
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #f91205;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.greeting {
+  margin-bottom: 2px;
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #f5501b;
+  font-size: 30px;
+}
+
+.event_info {
+  color: #585858;
+}
+
+.content {
+  border: solid 2px;
+  border-color: #fff;
+  margin-left: 12px;
+  margin-right: 12px;
+  vertical-align: inherit;
+  font-size: 20px;
+}
+
+.dates {
+  margin-left: 12px;
+  color: #5f5f5f;
+}
+
+.theDates {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.Program {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  background-image: url('../images/pattern_reps.png');
+  background-repeat: repeat;
+  background-color: rgba(39, 42, 50);
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+.main-heading {
+  font-weight: 100;
+}
+
+.pro_list {
+  display: flex;
+  gap: 20px;
+  color: #fff;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.pro_title {
+  color: #ef4c41;
+}
+
+.hori-line {
+  width: 30%;
+}
+
+hr {
+  background-color: #f91205;
+}
+
+.aboutHead {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-image: url('../images/background_img.png');
+  padding-bottom: 2rem;
+}
+
+.aboutContent {
+  background-color: #fff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+  border: 1px #585858;
+}
+
+.aboutInfo {
+  color: #585858;
+}
+
+.contact {
+  color: #585858;
+}
+
+.contactEM {
+  color: #5f5f5f;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-line {
+  width: 10%;
+  align-self: center;
+  border-bottom: 1px solid #ef513c;
+}
+
+.Logo-container {
+  justify-content: center;
+  border: #efefef solid;
+  margin-bottom: 5rem;
+}
+
+.pastEvent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  width: 70%;
+}
+
+.pastWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_the_line {
+  background-color: #5f5f5f;
+  width: 70%;
+}
+
+.pastImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.past_img {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/musicCon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgb(255, 79, 56, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.past_img_1 {
+  background-image: url("../images/Fresh.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #414246;
+  text-align: center;
+  color: #fff;
+}
+
+.firstLogos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  display: flex;
+  gap: 4rem;
+}
+
+.logo-img {
+  width: 200px;
+  height: 34px;
+}
+
+.pImg {
+  width: 200px;
+  height: 34px;
+}
+
+.social_media {
+  display: none;
+}
+
+.desktopMenu {
+  display: none;
+}
+
+.seePro {
+  display: none;
+}
+
+.pros {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.deskF {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .social_media {
+    display: flex;
+    background-color: #3e3e3e;
+    color: #fff;
+    justify-content: flex-end;
+    height: 36px;
+    gap: 12px;
+  }
+
+  .icon {
+    margin-top: 15px;
+  }
+
+  .menu-section {
+    display: none;
+  }
+
+  .desktopMenu {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+  }
+
+  .items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #414246;
+  }
+
+  .camp {
+    width: 150px;
+    height: 34px;
+    margin-top: 12px;
+    background-color: #fff;
+    border: 2px solid #ef442d;
+    color: #ef442d;
+    cursor: pointer;
+  }
+
+  .the-headings {
+    font-size: large;
+  }
+
+  .pros {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pro_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .seePro {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .seeMore {
+    color: #fff;
+  }
+
+  .firstLogos {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  .pastImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+  }
+
+  .logoFooter {
+    margin-top: 15px;
+  }
+
+  .mobile-P {
+    display: none;
+  }
+
+  .deskF {
+    display: flex;
+    background-color: #2e2e2e;
+    gap: 800px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .rights {
+    color: #fff;
+  }
+}
