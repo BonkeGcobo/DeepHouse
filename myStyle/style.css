@@ -1,12 +1,13 @@
-.bar {
-  width: 35px;
-  height: 5px;
-  background-color: #535353;
-  margin: 6px 3;
+.mobile-menu {
+  width: 20px;
+  height: 18px;
 }
 
 .menu-section {
+  display: flex;
+  flex-direction: column;
   margin-left: 7px;
+  margin-top: -1.7rem;
   margin-bottom: 40px;
   position: fixed;
 }
@@ -16,8 +17,8 @@
   flex-direction: column;
   background-color: #f5f5f5;
   background-repeat: no-repeat;
-  background-image: url('../images/background_img.png'); 
-  padding-bottom: 2rem;  
+  background-image: url('../images/background_img.png');
+  padding-bottom: 2rem;
 }
 
 .annual_music {
@@ -43,7 +44,7 @@
 
 .content {
   border: solid 2px;
-  border-color: #ffffff;
+  border-color: #fff;
   margin-left: 12px;
   margin-right: 12px;
   vertical-align: inherit;
@@ -61,7 +62,7 @@
 }
 
 body {
-  font-family: "Nanum Gothic";
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .Program {
@@ -73,7 +74,7 @@ body {
   background-image: url('../images/pattern_reps.png');
   background-repeat: repeat;
   background-color: rgba(39, 42, 50);
-  color: #ffffff;
+  color: #fff;
   padding-bottom: 2rem;
 }
 
@@ -100,11 +101,9 @@ body {
 }
 
 hr {
-  background-color: #f91205;;
+  background-color: #f91205;
 }
 
-
-/**About Section ***/
 .aboutHead {
   text-align: center;
   display: flex;
@@ -117,7 +116,7 @@ hr {
 
 .aboutContent {
   background-color: #fff;
-  margin-left: 1rem ;
+  margin-left: 1rem;
   margin-right: 1rem;
   text-align: center;
   padding: 1rem;
@@ -134,7 +133,7 @@ hr {
 }
 
 .contactEM {
-  color:#5f5f5f;;
+  color: #5f5f5f;
 }
 
 .Logo {
@@ -146,12 +145,6 @@ hr {
 
 .about-line {
   width: 10%;
-}
-
-.Logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .Logo-container {
@@ -201,7 +194,7 @@ hr {
 }
 
 .overlay {
-  background-color: rgb(255,79,56, 0.7);
+  background-color: rgb(255, 79, 56, 0.7);
   width: 100%;
   height: 100%;
 }
@@ -210,7 +203,7 @@ hr {
   background-image: url("../images/Fresh.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;    
+  background-size: 100%;
 }
 
 .partner {
@@ -226,24 +219,20 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .footer {
   display: flex;
-  gap: 6rem;
+  gap: 4rem;
+}
+
+.logo-img {
+  width: 200px;
+  height: 34px;
 }
 
 .pImg {
   width: 200px;
   height: 34px;
 }
-
-.logo-img {
-  margin-top: 1rem;
-  width: 200px;
-  height: 34px;
-}
-
-
-
